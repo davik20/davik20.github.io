@@ -9,17 +9,62 @@ html {
     font-family: lato;
 }
 
+
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: 25px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 23px;
+   
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    html {
+        font-size: 27px;
+    }
+}
+
+
+
+
 body {
     font-size: 1.4rem;
+    
     height: 100vh;
     background-color: rgb(235, 238, 246);
 }
+
+
 
 .head {
     height: 30%;
     background-color: rgb(19,36,97);
     padding-bottom: 10rem
 }
+
+@media screen  and (min-width: 768px) {
+    .head {
+        
+        background-color: rgb(19,36,97);
+        padding-bottom: 20rem
+    }
+   
+}
+
 
 .head__info {
     padding-top: 8px;
@@ -61,7 +106,15 @@ body {
     width: 90%;
     border-radius: 7px;
     margin: auto;
-    margin-top: -5rem;
+    margin-top: -6rem;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        padding: 5rem 4rem 10rem 4rem;
+       margin-top: -1.8rem;
+      
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -110,6 +163,10 @@ body {
       
     }
 }
+
+
+
+
 .card__content {
     display:grid;
    
